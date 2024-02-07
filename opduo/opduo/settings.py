@@ -129,14 +129,14 @@ LOGIN_URL = 'login/'
 
 DUO_UNIVERSAL_AUTH = {
     'MAIN': {
-        'DUO_HOST': 'api-f0f5e78f.duosecurity.com',
-        'CLIENT_ID': 'DIGKTUH9ZY2R2RFKXC8N',
-        'CLIENT_SECRET': 'uIvXe5YkL5YGoYBEjrcTttaKvn1Uc4WOhcvhnWxS',
+        'DUO_HOST': 'xxxx',
+        'CLIENT_ID': 'xxxx',
+        'CLIENT_SECRET': 'xxxx',
         'AUTH_BACKENDS': [
             'django.contrib.auth.backends.ModelBackend',
         ],
         'FAIL_ACTION': 'CLOSED',
-        'REDIRECT_URI': 'http://localhost:8002/home/'
+        'REDIRECT_URI': 'http://localhost:8000/home/'
     }
 }
 
